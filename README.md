@@ -4,14 +4,14 @@ the News API. This is a free API that enables users to retrieve news articles in
 
 To proceed with either, you will need to obtain a news API key from: https://newsapi.org/account.
 
-An identical dashboard app has been created in R using the shiny package and in Python using the Plotly Dash package.
+An identical dashboard app has been created in R using the Shiny package and in Python using the Plotly Dash package.
 
 # R Configuration
 Author: Richard Haigh
 
 Date of Intial Upload: 03/03/2020
 
-Written - R Desktop 3.5.2
+Written - R Desktop 3.6.2
 
 Environment: RStudio v1.2.1335
 
