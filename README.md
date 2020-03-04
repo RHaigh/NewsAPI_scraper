@@ -19,8 +19,8 @@ Packages: Shiny v1.4.0, newsanchor v0.1.1, googleAuthR v1.1.1, googleAnalyticsR 
 
 In line with best practice, save your API key to your .Renviron folder and ensure your packages are the correct versions.
 Once this is done, you should be able to run the app.R file and deploy the news article search tool to your local environment.
-The sources that can be retrieved with the newsanchor R package are limited to those listed when the get_sources() function is
-run. As many of these as you wish may be used in your dataset dropdown menu, just ensure you match UI input to server.
+
+The sources that can be retrieved with the newsanchor R package are limited to those listed when the get_sources() function is run. As many of these as you wish may be used in your dataset dropdown menu, just ensure you match UI input to server.
 
 A more in-depth guide to the newsanchor functions can be found at: https://cran.r-project.org/web/packages/newsanchor/vignettes/usage-newsanchor.html. 
 
