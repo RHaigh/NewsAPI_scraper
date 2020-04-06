@@ -1,4 +1,4 @@
-# NewsAPI_scraper
+# NewsAPI Scraper
 Code to help analysts with a mid-level knowledge of R or Python create a realtime news article streaming app utilising 
 the News API. This is a free API that enables users to retrieve news articles in JSON format as they are published. 
 
