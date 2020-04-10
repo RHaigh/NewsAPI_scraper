@@ -36,5 +36,8 @@ Author: Richard Haigh
 Date of Initial Upload: 
 
 Written: Python 3.7
+Packages: dash v1.9.1, dash-core-components v1.8.1, dash-html-components v1.0.2, dash-table v4.6.1, newsapi v0.1.1, datetime v4.3, pandas v0.25.3
 
-Packages: 
+The NewsAPI limits get_everything() requests to 100 at a time. This means search requests will be limited to the first 100 that have been published within the date/time range chosen. These will then be conditionally filtered by searh input criteria. 
+
+An in-depth guide to custom python requests to the news API library can be found at: https://newsapi.org/docs/client-libraries/python
