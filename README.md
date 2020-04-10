@@ -40,6 +40,6 @@ Packages: dash v1.9.1, dash-core-components v1.8.1, dash-html-components v1.0.2,
 
 Utilise pip install/update to ensure packages are in line with versions given. Enter in API key and run to local drive. 
 
-The NewsAPI limits get_everything() requests to 100 per request. This means search requests will be limited to the first 100 captured that have been published within the date/time range chosen. These will then be conditionally filtered by search input criteria. 
+The NewsAPI limits get_everything() to 100 articles per request. This means search requests will be limited to the first 100 captured that have been published within the date/time range chosen. These will then be conditionally filtered by search input criteria. This leads to fewer articles per search. 
 
 An in-depth guide to custom python requests to the news API library can be found at: https://newsapi.org/docs/client-libraries/python
