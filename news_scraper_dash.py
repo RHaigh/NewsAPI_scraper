@@ -99,7 +99,7 @@ app.layout = html.Div([
                State('text_input', 'value')])
 def update_rows(n_clicks, value1, value2):
     if n_clicks is None:
-        return dash.no_update
+        return []
     f1 = (df['Source'] == value1) # If string is equal to source
     f2 = (df['Title'].str.contains(value2)) # If string contains text input
     dff = df[f1 & f2]
