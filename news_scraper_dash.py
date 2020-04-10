@@ -14,7 +14,7 @@ today = datetime.date.today()
 yesterday = today - datetime.timedelta(days=1)
 
 # Enter in news API key and grab all articles from chosen sources using get_everything function
-api = NewsApiClient(api_key='ce40f49218ce45ff8b6c66d054edf4dd')
+api = NewsApiClient(api_key='INSERT KEY')
 all_articles = api.get_everything(sources='bbc-news, abc-news, al-jazeera-english',
                                   from_param=yesterday,
                                   to=today,
