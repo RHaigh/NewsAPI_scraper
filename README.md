@@ -1,6 +1,6 @@
 # NewsAPI Scraper
-Code to help analysts with a mid-level knowledge of R or Python create a realtime news article streaming app utilising 
-the News API. This is a free API that enables users to retrieve news articles in JSON format as they are published. 
+Code to help analysts with a mid-level knowledge of R or Python create a real time news article streaming app utilising 
+the News API. This is a free API that enables users to retrieve news articles in JSON format as they are published from a variety of news sources. 
 
 We will produce a virtually identical app using both R and Python. 
 
@@ -30,6 +30,8 @@ The sources that can be retrieved with the newsanchor R package are limited to t
 
 A more in-depth guide to the newsanchor functions can be found at: https://cran.r-project.org/web/packages/newsanchor/vignettes/usage-newsanchor.html. 
 
+If you wish to deploy this app externally, we recommend the use of shinyapps.io for simplicity. 
+
 # Python Configuration
 Author: Richard Haigh
 
@@ -43,3 +45,5 @@ Utilise pip install/update to ensure packages are in line with versions given. E
 The NewsAPI limits get_everything() to 100 articles per request. This means search requests will be limited to the first 100 captured that have been published within the date/time range chosen. These will then be conditionally filtered by search input criteria. This leads to fewer articles per search. 
 
 An in-depth guide to custom python requests to the news API library can be found at: https://newsapi.org/docs/client-libraries/python
+
+Dash utilises Flask under the hood and, should you wish to deploy an app like this, you will need to follow the guidelines for flask cloud / server deployment: https://dash.plotly.com/deployment
