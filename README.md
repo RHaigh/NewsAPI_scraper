@@ -6,7 +6,7 @@ We will produce two apps using both R and Python, that look similar but act diff
 
 To proceed with either, you will need to obtain a news API key from: https://newsapi.org/account.
 
-This split will also allow us to look at two possible rendering options.
+Our two different back-end options will be:
 
 Firstly, an R shiny app that will reactively send a modified request based on input variables to the News API with every click of the submit button by the user. This will enable more up-to-date rendering but will rapdily exhaust the limit on requests per day. 
 
