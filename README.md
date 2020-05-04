@@ -10,7 +10,7 @@ This split will also allow us to look at two possible rendering options.
 
 Firstly, an R shiny app that will reactively send a modified request based on input variables to the News API with every click of the submit button. This will enable more up-to-date rendering but will rapdily exhaust the limit on requests per day. 
 
-The second Plotly Dash app, written in Python, will request all available articles on page rendering then reactively filter those displayed based on input variables. This means that the page must be refreshed to retrieve new articles but will only make 1 request per hit. Such an approach would be better suited to use from a larger team. 
+The second, a Plotly Dash app written in Python, will request all available articles on page rendering then reactively filter those displayed based on input variables. This means that the page must be refreshed to retrieve new articles but will only make 1 request per hit. Such an approach would be better suited to use from a larger team. 
 
 # R Configuration
 Author: Richard Haigh
