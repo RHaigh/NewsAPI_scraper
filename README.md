@@ -2,15 +2,15 @@
 Code to help analysts with a mid-level knowledge of R or Python create a real time news article streaming app utilising 
 the News API. This is a free API that enables users to retrieve news articles in JSON format as they are published from a variety of news sources. 
 
-We will produce a virtually identical app using both R and Python. 
+We will produce two apps using both R and Python, that look similar but act differently under the hood. 
 
 To proceed with either, you will need to obtain a news API key from: https://newsapi.org/account.
 
 This split will also allow us to look at two possible rendering options.
 
-Firstly, an R shiny app that will reactively send a modified request based on input variables to the News API with every click of the submit button. This will enable more up-to-date rendering but will rapdily exhaust the limit on requests per day. 
+Firstly, an R shiny app that will reactively send a modified request based on input variables to the News API with every click of the submit button by the user. This will enable more up-to-date rendering but will rapdily exhaust the limit on requests per day. 
 
-The second, a Plotly Dash app written in Python, will request all available articles on page rendering then reactively filter those displayed based on input variables. This means that the page must be refreshed to retrieve new articles but will only make 1 request per hit. Such an approach would be better suited to use from a larger team. 
+The second, a Plotly Dash app written in Python, will request all available articles on initial page rendering then reactively filter those displayed based on user input variables. This means that the page must be refreshed to retrieve new articles but will only make 1 request per hit. Such an approach would be better suited to use from a larger team. 
 
 # R Configuration
 Author: Richard Haigh
